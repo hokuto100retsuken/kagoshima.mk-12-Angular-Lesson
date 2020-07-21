@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-lesson"
+    }
+  },
+  "defaultProject": "angular-lesson",
+  "cli": {
+    "analytics": false
+  }
 }
