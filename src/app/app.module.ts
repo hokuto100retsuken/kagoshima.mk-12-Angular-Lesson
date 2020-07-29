@@ -4,10 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ResoucesComponent } from './resouces/resouces.component';
+import { NextStepsComponent } from './next-steps/next-steps.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ResoucesComponent,
+    NextStepsComponent
   ],
   imports: [
     BrowserModule,
