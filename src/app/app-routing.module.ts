@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { NonePageComponent } from './pages/none-page/none-page.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: '', component: NonePageComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
