@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HiroListPageComponent } from './hiro-list-page.component';
+import { TopPageComponent } from './top-page.component';
 
-describe('HiroListPageComponent', () => {
-  let component: HiroListPageComponent;
-  let fixture: ComponentFixture<HiroListPageComponent>;
+describe('TopPageComponent', () => {
+  let component: TopPageComponent;
+  let fixture: ComponentFixture<TopPageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HiroListPageComponent ]
+      declarations: [ TopPageComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HiroListPageComponent);
+    fixture = TestBed.createComponent(TopPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
