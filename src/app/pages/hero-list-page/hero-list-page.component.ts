@@ -8,6 +8,9 @@ import { Hero } from '../../models/hero';
   styleUrls: ['./hero-list-page.component.css']
 })
 export class HeroListPageComponent implements OnInit {
+  /*
+  https://angular.jp/tutorial/toh-pt2 を参照してリスト表示をしてみよう
+   */
   heroes: Hero[] = HEROES;
 
   constructor() { }
