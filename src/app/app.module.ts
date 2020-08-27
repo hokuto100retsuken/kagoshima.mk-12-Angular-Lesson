@@ -8,9 +8,10 @@ import { ResoucesComponent } from './component/resouces/resouces.component';
 import { NextStepsComponent } from './component/next-steps/next-steps.component';
 import { ZipPageComponent } from './pages/zip-page/zip-page.component';
 import { CounterPageComponent } from './pages/counter-page/counter-page.component';
-import { HiroListPageComponent } from './pages/hiro-list-page/hiro-list-page.component';
 import { NonePageComponent } from './pages/none-page/none-page.component';
 import { HogeComponent } from './component/hoge/hoge.component';
+import { TopPageComponent } from './pages/top-page/top-page.component';
+import { HeroListPageComponent } from './pages/hero-list-page/hero-list-page.component';
 
 @NgModule({
   declarations: [
@@ -19,9 +20,10 @@ import { HogeComponent } from './component/hoge/hoge.component';
     NextStepsComponent,
     ZipPageComponent,
     CounterPageComponent,
-    HiroListPageComponent,
     NonePageComponent,
-    HogeComponent
+    HogeComponent,
+    TopPageComponent,
+    HeroListPageComponent
   ],
   imports: [
     BrowserModule,
