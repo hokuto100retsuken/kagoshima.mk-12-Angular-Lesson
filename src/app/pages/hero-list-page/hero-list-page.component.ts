@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HEROES } from '../../models/mock-hero';
+import { Hero } from '../../models/hero';
 
 @Component({
   selector: 'app-hero-list-page',
@@ -6,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hero-list-page.component.css']
 })
 export class HeroListPageComponent implements OnInit {
+  heroes: Hero[] = HEROES;
 
   constructor() { }
 

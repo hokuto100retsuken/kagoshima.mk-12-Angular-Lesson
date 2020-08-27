@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./counter-page.component.css']
 })
 export class CounterPageComponent implements OnInit {
+  /*
+   app/component 配下に 'ng g component counter' でコンポーネントを作成しよう
+   */
 
   constructor() { }
 
