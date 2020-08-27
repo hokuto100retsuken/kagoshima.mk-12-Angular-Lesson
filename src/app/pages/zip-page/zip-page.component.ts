@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./zip-page.component.css']
 })
 export class ZipPageComponent implements OnInit {
+  zipCode: number = null;
 
   constructor() { }
 

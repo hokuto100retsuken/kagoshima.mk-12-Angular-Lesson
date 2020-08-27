@@ -12,6 +12,8 @@ import { NonePageComponent } from './pages/none-page/none-page.component';
 import { HogeComponent } from './component/hoge/hoge.component';
 import { TopPageComponent } from './pages/top-page/top-page.component';
 import { HeroListPageComponent } from './pages/hero-list-page/hero-list-page.component';
+import {FormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,11 +27,13 @@ import { HeroListPageComponent } from './pages/hero-list-page/hero-list-page.com
     TopPageComponent,
     HeroListPageComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        FormsModule,
+      HttpClientModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
